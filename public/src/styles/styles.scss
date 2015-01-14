@@ -1,0 +1,38 @@
+li.track-item {
+  padding-bottom: 0;
+
+  div.panel {
+    margin-bottom: 0.25rem;
+  }
+
+  div.album-art-column {
+    padding-left: 0;
+  }
+
+  h3.title {
+    margin-top: 0;
+  }
+
+  h3.title, span.artist, span.album {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  span.play-time {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.9rem;
+  }
+}
+
+li.load-more-tracks {
+  div.album-art-column {
+    padding-left: 0;
+  }
+
+  button {
+    margin-bottom: 0.1rem;
+  }
+}

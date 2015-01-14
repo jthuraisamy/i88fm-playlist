@@ -1,0 +1,22 @@
+{
+  "name": "i88fm-playlist",
+  "version": "0.0.1",
+  "authors": [
+    "Jackson Thuraisamy <jackson at thuraisamy dot me>"
+  ],
+  "description": "Integration of Indie 88.1 FM with Grooveshark",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests"
+  ],
+  "dependencies": {
+    "unveil": "~1.3.0",
+    "jquery": "~2.1.3",
+    "foundation": "zurb/bower-foundation#~5.5.0",
+    "mithril": "~0.1.28"
+  }
+}
