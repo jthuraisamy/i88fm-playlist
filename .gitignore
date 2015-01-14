@@ -15,3 +15,5 @@ public/build/
 # Debug log from npm
 npm-debug.log
 
+# Config file.
+config.js
