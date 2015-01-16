@@ -17,7 +17,7 @@ app.use(express.static(__dirname + '/public/build'));
 app.use(morgan('tiny'));
 
 // Configure mongoose.
-mongoose.connect('mongodb://' + config.db.HOSTNAME + '/' + config.db.NAME);
+mongoose.connect('mongodb://' + config.db.HOSTNAME + ':' + config.db.PORT + '/' + config.db.NAME);
 
 // API routing.
 app.get('/api/recent-tracks', function (req, res) {

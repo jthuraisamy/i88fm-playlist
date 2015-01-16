@@ -5,7 +5,8 @@ var config = {
 
     db: {
         HOSTNAME: 'localhost',
-        NAME: 'i88fm'
+        NAME: 'i88fm',
+        PORT: 27964
     },
 
     api: {
