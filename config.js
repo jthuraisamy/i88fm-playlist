@@ -1,6 +1,6 @@
 var config = {
     server: {
-        PORT: 8000
+        PORT: process.env.PORT || 8000
     },
 
     db: {
@@ -11,7 +11,7 @@ var config = {
     api: {
         STREAMON_URL: 'http://indie.streamon.fm/eventrange/%d-%d.json',
         TINYSONG_URL: 'http://tinysong.com/s/%s?format=json&limit=10&key=%s',
-        TINYSONG_KEY: ''
+        TINYSONG_KEY: '5a7df1069789b4584c47a3d0b900eb48'
     }
 };
 
