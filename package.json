@@ -4,6 +4,9 @@
   "version": "0.0.1",
   "author": "Jackson Thuraisamy <jackson at thuraisamy dot me>",
   "license": "MIT",
+  "engines": {
+    "node": "0.10.x"
+  },
   "dependencies": {
     "express": "~4.10.0",
     "compression": "~1.2.2",
