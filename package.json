@@ -5,7 +5,8 @@
   "author": "Jackson Thuraisamy <jackson at thuraisamy dot me>",
   "license": "MIT",
   "engines": {
-    "node": "0.10.x"
+    "node": "0.10.x",
+    "npm": "2.1.x"
   },
   "dependencies": {
     "express": "~4.10.0",

@@ -129,7 +129,7 @@ gulp.task('scripts-vendor', function() {
 
 // Process projects scripts.
 gulp.task('scripts-project', ['transform-jsx', 'jshint'], function() {
-    var modules = ['model', 'controller', 'view', 'main'];
+    var modules = ['model', 'view', 'controller', 'main'];
     var jsSrcDir = './public/src/scripts/compiled-jsx/';
     var jsDst = './public/build/scripts';
     var jsSrc = modules.map(function(module) { return jsSrcDir + module + '.js'; });
