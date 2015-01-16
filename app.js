@@ -17,9 +17,11 @@ app.use(express.static(__dirname + '/public/build'));
 app.use(morgan('tiny'));
 
 // Configure mongoose.
+console.log(process.env.MONGOLAB_URI);
+console.log(process.env.MONGOHQ_URL);
 var MONGODB_URI = process.env.MONGOLAB_URI ||
                   process.env.MONGOHQ_URL  ||
-                  'mongodb://' + config.db.HOSTNAME + ':' + config.db.PORT + '/' + config.db.NAME
+                  'mongodb://' + config.db.HOSTNAME + ':' + config.db.PORT + '/' + config.db.NAME;
 mongoose.connect(MONGODB_URI);
 
 // API routing.
