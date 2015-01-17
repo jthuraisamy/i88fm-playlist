@@ -33,5 +33,6 @@ $ node app.js
 $ git clone https://github.com/jthuraisamy/i88fm-playlist.git
 $ cd i88fm-playlist/
 $ heroku create
+$ heroku addons:add mongolab
 $ git push heroku master
 ```
