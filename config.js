@@ -4,15 +4,13 @@ var config = {
     },
 
     db: {
-        HOSTNAME: 'localhost',
-        NAME: 'i88fm',
-        PORT: 27017
+        URI: process.env.MONGOLAB_URI || 'mongodb://localhost/i88fm'
     },
 
     api: {
         STREAMON_URL: 'http://indie.streamon.fm/eventrange/%d-%d.json',
         TINYSONG_URL: 'http://tinysong.com/s/%s?format=json&limit=10&key=%s',
-        TINYSONG_KEY: '5a7df1069789b4584c47a3d0b900eb48'
+        TINYSONG_KEY: process.env.TINYSONG_KEY || 'INSERT_TINYSONG_KEY_HERE'
     }
 };
 
