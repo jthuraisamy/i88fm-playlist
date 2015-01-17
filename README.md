@@ -2,14 +2,14 @@
 
 This app can help you make a personalized list of favourite tracks from Indie88 FM with their corresponding Grooveshark links. I made it primarily for the Grooveshark integration, but also as an excuse to learn a bunch of stuff:
 
-* Node.js & Express
-* MongoDB & Mongoose
-* Zurb Foundation: knowing Bootstrap fairly well already, I wanted to try a different front-end framework
-* Mithril.js: a simple but powerful client-side MVC framework
-* IndexedDB: used to locally cache recent and liked tracks so that content loads faster on the browser without making redundant requests to the server
-* Bower
-* Gulp
-* Heroku
+* **Node.js** & **Express**
+* **MongoDB** & **Mongoose**
+* **Zurb Foundation**: knowing Bootstrap fairly well already, I wanted to try a different front-end framework
+* **Mithril.js**: a simple but powerful client-side MVC framework
+* **IndexedDB**: used to locally cache recent and liked tracks so that content loads faster on the browser without making redundant requests to the server
+* **Bower**
+* **Gulp**
+* **Heroku**
 
 ## Preview ([Online Demo](http://i88.thuraisamy.me))
 
