@@ -1,0 +1,19 @@
+# WebStorm settings
+.idea/
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+bower_components/
+node_modules/
+
+# Compiled front-end files
+public/build/
+
+# Debug log from npm
+npm-debug.log
+
+# Config file.
+config.js
