@@ -1,9 +1,13 @@
 {
   "name": "i88fm-playlist",
   "description": "Integration of Indie 88.1 FM with Grooveshark",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Jackson Thuraisamy <jackson at thuraisamy dot me>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jthuraisamy/i88fm-playlist"
+  },
   "engines": {
     "node": "0.10.x",
     "npm": "2.1.x"
