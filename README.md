@@ -4,7 +4,7 @@ This app can help you make a personalized list of favourite tracks from Indie88 
 
 * **Node.js** & **Express**
 * **MongoDB** & **Mongoose**
-* **Zurb Foundation**: knowing Bootstrap fairly well already, I wanted to try a different front-end framework
+* **Zurb Foundation**: knowing Bootstrap fairly well already, I wanted to try a different front-end framework that is responsive to mobile, tablet, and desktop devices
 * **Mithril.js**: a simple but powerful client-side MVC framework
 * **IndexedDB**: used to locally cache recent and liked tracks so that content loads faster on the browser without making redundant requests to the server
 * **Bower**
@@ -19,9 +19,9 @@ This app can help you make a personalized list of favourite tracks from Indie88 
 
 ## Installation
 
-Several options can be set in `config.js` after cloning the repository. Make sure to replace `TINYSONG_KEY` [with your own](http://tinysong.com/api) to automate the retrieval of Grooveshark links for tracks.
-
 ### Default
+
+Several options can be set in `config.js` after cloning the repository. Make sure to replace `TINYSONG_KEY` [with your own](http://tinysong.com/api) to automate the retrieval of Grooveshark links for tracks.
 
 ```
 $ git clone https://github.com/jthuraisamy/i88fm-playlist.git
@@ -39,5 +39,6 @@ $ git clone https://github.com/jthuraisamy/i88fm-playlist.git
 $ cd i88fm-playlist/
 $ heroku create
 $ heroku addons:add mongolab
+$ heroku config:set TINYSONG_KEY=XXXXXXXXXXXXXXXXXXXXXXXX
 $ git push heroku master
 ```
