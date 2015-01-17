@@ -4,8 +4,11 @@ This app can help you make a personalized list of favourite tracks from Indie88 
 
 * Node.js/Express
 * MongoDB
+* Zurb Foundation
 * Mithril.js
 * IndexedDB
+* Bower
+* Gulp
 * Heroku
 
 ## Preview ([Online Demo](http://i88.thuraisamy.me))
